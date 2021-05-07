@@ -1,7 +1,7 @@
 import pickle
 from flask import Flask, render_template, request
 
-from naive_bayes_classifier import vectorizer
+from nb_vectorizer_util import vectorizer
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
